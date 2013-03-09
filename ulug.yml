@@ -1,0 +1,6 @@
+---
+id:           facebook app id
+secret:       facebook secret key
+token:        facebook token
+access_token: facebook access token
+group_id:     ulug group id

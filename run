@@ -1,0 +1,8 @@
+#!/bin/sh
+export HUBOT_IRC_ROOMS='#ulug'
+export HUBOT_IRC_SERVER='irc.ozinger.org'
+export HUBOT_IRC_NICK='ulug'
+export HUBOT_IRC_REALNAME='ulug'
+export HUBOT_IRC_USER='ulug'
+
+perl -Ipatch -Ilib -- $(which hubot) -a irc
